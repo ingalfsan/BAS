@@ -1,0 +1,39 @@
+menu "BAS prototype"
+
+config BAS_I2C_SDA_GPIO
+    int "I2C SDA GPIO"
+    range 0 48
+    default 8
+    help
+        Select a GPIO available on the specific ESP32-S3 board.
+
+config BAS_I2C_SCL_GPIO
+    int "I2C SCL GPIO"
+    range 0 48
+    default 9
+    help
+        Select a GPIO available on the specific ESP32-S3 board.
+
+config BAS_OBJECT_SENSOR_ADDRESS
+    hex "Object TMP117 I2C address"
+    range 0x48 0x4b
+    default 0x48
+
+config BAS_AMBIENT_SENSOR_ADDRESS
+    hex "Ambient TMP117 I2C address"
+    range 0x48 0x4b
+    default 0x49
+
+config BAS_SAMPLE_PERIOD_MS
+    int "Sample period (milliseconds)"
+    range 250 60000
+    default 1000
+
+config BAS_SIMULATION
+    bool "Use simulated temperatures instead of hardware"
+    default n
+    help
+        Emit deterministic synthetic data. Simulated data is labeled in every
+        telemetry record and must not be treated as a sensor measurement.
+
+endmenu

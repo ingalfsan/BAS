@@ -1,0 +1,12 @@
+# ESP-IDF build output
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# Editor and host test output
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
