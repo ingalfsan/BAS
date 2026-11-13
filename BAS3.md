@@ -97,14 +97,14 @@ Cellular suspensions behave as heterogeneous dielectric mixtures. Genomic anomal
 
 #### 3.2.2. Physical Foundation
 
-Hanai's mixture theory describes the effective complex permittivity ($\epsilon^{*}$) of dense heterogeneous mixtures:
+Hanai's mixture theory describes the effective complex permittivity ($\tilde{\epsilon}$) of dense heterogeneous mixtures:
 
 $$
-\left(\frac{\epsilon^{*}-\epsilon_m^{*}}{\epsilon_i^{*}-\epsilon_m^{*}}\right)
-\left(\frac{\epsilon_i^{*}}{\epsilon^{*}}\right)^{1/3} = 1-\phi \tag{4}
+\left(\frac{\tilde{\epsilon}-\tilde{\epsilon}_m}{\tilde{\epsilon}_i-\tilde{\epsilon}_m}\right)
+\left(\frac{\tilde{\epsilon}_i}{\tilde{\epsilon}}\right)^{1/3} = 1-\phi \tag{4}
 $$
 
-where $\epsilon_m^{*}$ is medium permittivity, $\epsilon_i^{*}$ is cell permittivity, and $\phi$ is volume fraction. Global spectral fitting inverts Equation 4 over 100 Hz–10 MHz, differentiating $\alpha$ (ions/bacteria) and $\beta$ (cells/membranes) dispersions [5].
+where $\tilde{\epsilon}_m$ is medium permittivity, $\tilde{\epsilon}_i$ is cell permittivity, and $\phi$ is volume fraction. Global spectral fitting inverts Equation 4 over 100 Hz–10 MHz, differentiating $\alpha$ (ions/bacteria) and $\beta$ (cells/membranes) dispersions [5].
 
 ### 3.3. Domain III: Genomic Mass Detection (Inductive TEM)
 
